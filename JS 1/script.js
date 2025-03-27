@@ -13,7 +13,3 @@ botao.addEventListener("mouseover",e=>{
         botao.style.background= "red"
         botao.innerHTML="Quebrei"
     });
-
-
-
-
