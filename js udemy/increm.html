@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = 5;
+        console.log('o valor de a ANTES DO INCREMENTO é ' + a)
+        let b = ++a;  // Pré-incremento: a é incrementado antes de ser atribuído a b
+        console.log('o valor de a DEPOIS DO INCREMENTO é ' + a); // 6
+        console.log('o valor de b é o a incrementado é ' + b); // 6
+
+        let c = 5;
+        console.log('o valor de c ANTES DO INCREMENTO é ' + c)
+        let d = c++;  // Pós-incremento: c é atribuído a d antes de ser incrementado
+        console.log('o valor de c DEPOIS DO INCREMENTO é ' + c); // 6
+        console.log('o valor de d com o c incrementado é ' + d, 'porque ele foi pós incrementado, então ainda não tem o valor com o incremento'); // 5
+
+
+        console.log('decremento')
+
+        let e = 5;
+        let f = --e;  // Pré-decremento: a é decrementado antes de ser atribuído a b
+        console.log(e); // 4
+        console.log(f); // 4
+
+        let g = 5;
+        let h = g--;  // Pós-decremento: c é atribuído a d antes de ser incrementado
+        console.log(g); // 4
+        console.log(h); // 5
+    </script>
+</body>
+
+</html>
